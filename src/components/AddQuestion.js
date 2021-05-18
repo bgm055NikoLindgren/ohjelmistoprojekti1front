@@ -42,6 +42,7 @@ function AddQuestion(props){
             <AddBoxIcon fontSize="large" />
           </IconButton>
           <p>Press here to add a Question</p>
+          <hr color="black"></hr>
           <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
             <DialogTitle id="form-dialog-title">New Question</DialogTitle>
             <DialogContent>
@@ -55,7 +56,6 @@ function AddQuestion(props){
                 value={question.question}
                 onChange={inputChanged}
                 fullWidth
-
               />
                    </DialogContent>
             <DialogActions>

@@ -1,4 +1,32 @@
 .App {
   text-align: center;
+  
+  
 }
 
+.mau {
+  padding : 25px;
+  
+}
+
+.kissamau{
+  padding : 10px;
+  letter-spacing : 25px
+  
+}
+body {
+  background-color: rgb(14, 194, 218);
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-top: 25px;
+}
+
+.tuloksetnumerot {
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  margin: 50px;
+  padding: 10px;
+  
+}
